@@ -8,6 +8,20 @@ tags:
     - Blog
 last_modified_at: 2020-12-12T20:21:00-05:00
 
+gallery:
+  - url: /assets/images/001-Create-a-GitHub-Blog/tistory_kakao.png
+    image_path: /assets/images/001-Create-a-GitHub-Blog/tistory_kakao.png
+    alt: "티스토리 카카오 블로그"
+  - url: /assets/images/001-Create-a-GitHub-Blog/티스토리-수익.png
+    image_path: /assets/images/001-Create-a-GitHub-Blog/티스토리-수익.png
+    alt: "티스토리 수익 샘플"
+gallery0:
+  - url: /assets/images/001-Create-a-GitHub-Blog/no-style-please.png
+    image_path: /assets/images/001-Create-a-GitHub-Blog/no-style-please.png
+    alt: "no-style-please"
+  - url: /assets/images/001-Create-a-GitHub-Blog/Chirpy-theme.png
+    image_path: /assets/images/001-Create-a-GitHub-Blog/Chirpy-theme.png
+    alt: "Chirpy-theme"
 gallery1:
   - url: /assets/images/001-Create-a-GitHub-Blog/github-hompage.png
     image_path: /assets/images/001-Create-a-GitHub-Blog/github-hompage.png
@@ -66,6 +80,8 @@ gallery7:
 필자는 블로그를 약 **8년간** 운영하고 있다. 그 히스토리를 짧게 요약 해보자면 아래와 같다. 만드는 방법만 간단히 보고싶은 분들은 스킵해도 좋다.
 
 성인이 되기 이전에는 네이버 블로그에서 하루 만명 이상의 방문자수를 내는 블로그를 운영해보았고, 여러가지 제품을 무료로 제공 받거나 포스팅 비용을 받고 수익을 창출했다.
+
+{% include gallery id="gallery" %}
 
 그 이후에는 조금 더 수익성을 위해 티스토리를 개설하였고 애드센스를 적용하게되면서 월 xx만원 정도하는 애드센스 수익을 창출하기 시작했다.
 
