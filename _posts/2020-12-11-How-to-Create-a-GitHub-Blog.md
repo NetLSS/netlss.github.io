@@ -167,7 +167,7 @@ _config.yml을 눌르면 해당 코드를 볼 수 있고 위에 연필 처럼 �
 
 참고로 해당 _config.yml 코드는 아래 github 저장소를 참고했다.
 
-> github.com/7271kim/7271kim.github.com/blob/master/_config.yml
+> [7271kim님의 github.io config yml](http://github.com/7271kim/7271kim.github.com/blob/master/_config.yml)
 
 ### 6. GitHub Pages 설정하기
 
