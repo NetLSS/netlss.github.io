@@ -40,8 +40,8 @@ gallery4:
     image_path: /assets/images/001-Create-a-GitHub-Blog/Preparing-new-repository.png
     alt: "Preparing new repository"    
 gallery5:
-  - url: /assets/images/001-Create-a-GitHub-Blog/_config-yml-file.png
-    image_path: /assets/images/001-Create-a-GitHub-Blog/_config-yml-file.png
+  - url: /assets/images/001-Create-a-GitHub-Blog/config-yml-file.png
+    image_path: /assets/images/001-Create-a-GitHub-Blog/config-yml-file.png
     alt: "_config.yml 파일 수정 방법1"
   - url: /assets/images/001-Create-a-GitHub-Blog/Edit-this-file.png
     image_path: /assets/images/001-Create-a-GitHub-Blog/Edit-this-file.png
