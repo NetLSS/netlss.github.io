@@ -1,5 +1,5 @@
 ---
-title: "깃허브(GitHub) 블로그 시작하기 Jekyll로 누구나 쉽게 만들기 가능"
+title: "깃허브(GitHub) 블로그 시작하기 Jekyll로 쉽게 만들기 가능"
 excerpt: "GitHub를 이용한 블로그 시작하기 퀵스타터 쉬운 방법"
 
 categories:
