@@ -10,7 +10,7 @@ last_modified_at: 2020-12-12T20:21:00-05:00
 
 gallery2:
   - url: /assets/images/001-Create-a-GitHub-Blog/github-hompage.png
-    image_path: /assets/images/001-Create-a-GitHub-Blog/github hompage.png
+    image_path: /assets/images/001-Create-a-GitHub-Blog/github-hompage.png
     alt: "깃허브 홈페이지"
   - url: /assets/images/001-Create-a-GitHub-Blog/create-your-account.png
     image_path: /assets/images/001-Create-a-GitHub-Blog/create-your-account.png
