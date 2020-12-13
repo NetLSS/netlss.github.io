@@ -15,7 +15,6 @@ last_modified_at: 2020-12-13T23:13:02+09:00
 
 ![깃허브 블로그에 리디바탕 폰트 적용한 모습](/assets/images/002-change-github-blog-font/Ridibatang_in_github_blog.png){: .center}
 
-![picture 21](/assets/images/clipboard/Ridibatang_in_github_blog.png)  
 그래서 이 테마를 기준으로 설명하겠지만, 다른 지킬 테마를 쓰더라도 사실 특정 폴더내 파일을 수정하는 것이라서 별 다를 것이 없을것이기 때문에 다른 테마를 쓰더라도 이 글이 도움이 될 것이다.
 
 ### 1.1. 리디바탕체?
@@ -59,7 +58,8 @@ last_modified_at: 2020-12-13T23:13:02+09:00
 
 ### 2.2. 폰트파일을 assets 폴더로 복사
 폰트파일(.otf, .woff)을 구했다면 /assets/fonts 경로로 복사해준다. (사실 아무대나 해도 되는데 assets로 통일하는 것이 좋다.)
-![font-to-assets](/assets/images/clipboard/font-to-assets.png)  
+
+![font-to-assets](/assets/images/clipboard/font-to-assets.png){: .center}
 
 ### 2.3. css 파일 수정 (assets/css)
 다음으로는 jekyll에서 우리가 적용해줄 css 코드를 설정해주어야 한다. 경로는 assets/css/main.scss 내부에 아래 코드를 추가하면된다.
@@ -87,6 +87,6 @@ $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
 ### 2.5. commit & push 후 확인
 이후 커밋 & 푸시 후 1~2분 정도 뒤에 확인해보면 정상적으로 폰트가 적용된 것을 확인할 수 있을 것이다.
 
-![%EA%B9%83%ED%97%88%EB%B8%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%8F%B0%ED%8A%B8%EB%B3%80%EA%B2%BD-%EC%A0%81%EC%9A%A9%EB%AA%A8%EC%8A%B5](/assets/images/clipboard/%EA%B9%83%ED%97%88%EB%B8%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%8F%B0%ED%8A%B8%EB%B3%80%EA%B2%BD-%EC%A0%81%EC%9A%A9%EB%AA%A8%EC%8A%B5.png)  
+![%EA%B9%83%ED%97%88%EB%B8%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%8F%B0%ED%8A%B8%EB%B3%80%EA%B2%BD-%EC%A0%81%EC%9A%A9%EB%AA%A8%EC%8A%B5](/assets/images/clipboard/%EA%B9%83%ED%97%88%EB%B8%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%8F%B0%ED%8A%B8%EB%B3%80%EA%B2%BD-%EC%A0%81%EC%9A%A9%EB%AA%A8%EC%8A%B5.png){: .center}
 
 이로써 깃허브 블로그 폰트 변경을 성공적으로 마쳤다. 생각보다 너무 간단하지 않은가? 이것은 사실 시작에 불과하다. 이보다 더 많은 커스터마이징할 것이 남아있는데, 이건 앞으로 차차 올리도록 하겠다.
