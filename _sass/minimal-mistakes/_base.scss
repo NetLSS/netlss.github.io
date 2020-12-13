@@ -229,8 +229,6 @@ figure {
     border-radius: $border-radius;
     -webkit-transition: $global-transition;
     transition: $global-transition;
-    display: block;
-    margin: 0 auto;
   }
 
   > a {
@@ -359,4 +357,10 @@ input[type="submit"],
 .archive__item-teaser {
   -webkit-transition: $global-transition;
   transition: $global-transition;
+}
+
+// @sslee default center
+img {
+  display: block;
+  margin: 0 auto;
 }
