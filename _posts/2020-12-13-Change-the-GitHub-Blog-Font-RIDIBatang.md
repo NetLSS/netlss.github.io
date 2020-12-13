@@ -57,11 +57,11 @@ last_modified_at: 2020-12-13T23:13:02+09:00
 
 > [리디바탕체 웹폰트 다운로드](https://noonnu.cc/font_page/324)
 
-### 폰트파일을 assets 폴더로 복사
+### 2.2. 폰트파일을 assets 폴더로 복사
 폰트파일(.otf, .woff)을 구했다면 /assets/fonts 경로로 복사해준다. (사실 아무대나 해도 되는데 assets로 통일하는 것이 좋다.)
 ![font-to-assets](/assets/images/clipboard/font-to-assets.png)  
 
-### css 파일 수정 (assets/css)
+### 2.3. css 파일 수정 (assets/css)
 다음으로는 jekyll에서 우리가 적용해줄 css 코드를 설정해주어야 한다. 경로는 assets/css/main.scss 내부에 아래 코드를 추가하면된다.
 ```css
 @font-face {
@@ -73,7 +73,7 @@ last_modified_at: 2020-12-13T23:13:02+09:00
 ```
 ![css-file-edit-main-scss](/assets/images/clipboard/css-file-edit-main-scss.png)  
 
-### variables.scss 에서 폰트 적용
+### 2.4. variables.scss 에서 폰트 적용
 다음은 _sass폴더의 minimal-mistakes/_variables.scss 파일을 수정해야한다. 15라인 쯤에 system typefaces 주석 아래 부분 sans-serif란을 수정하면되는데, 자기 자신의 폰트명을 입력해준다.
 ```css
 /* system typefaces */
@@ -84,7 +84,7 @@ $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
 ```
 ![variables-scss-font](/assets/images/clipboard/variables-scss-font.png)  
 
-### commit & push 후 확인
+### 2.5. commit & push 후 확인
 이후 커밋 & 푸시 후 1~2분 정도 뒤에 확인해보면 정상적으로 폰트가 적용된 것을 확인할 수 있을 것이다.
 
 ![%EA%B9%83%ED%97%88%EB%B8%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%8F%B0%ED%8A%B8%EB%B3%80%EA%B2%BD-%EC%A0%81%EC%9A%A9%EB%AA%A8%EC%8A%B5](/assets/images/clipboard/%EA%B9%83%ED%97%88%EB%B8%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%8F%B0%ED%8A%B8%EB%B3%80%EA%B2%BD-%EC%A0%81%EC%9A%A9%EB%AA%A8%EC%8A%B5.png)  
