@@ -229,6 +229,8 @@ figure {
     border-radius: $border-radius;
     -webkit-transition: $global-transition;
     transition: $global-transition;
+    display: block;
+    margin: 0 auto;
   }
 
   > a {
