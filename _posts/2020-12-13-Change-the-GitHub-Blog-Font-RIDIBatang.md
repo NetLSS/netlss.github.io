@@ -91,3 +91,7 @@ $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
 ![%EA%B9%83%ED%97%88%EB%B8%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%8F%B0%ED%8A%B8%EB%B3%80%EA%B2%BD-%EC%A0%81%EC%9A%A9%EB%AA%A8%EC%8A%B5](/assets/images/clipboard/%EA%B9%83%ED%97%88%EB%B8%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%8F%B0%ED%8A%B8%EB%B3%80%EA%B2%BD-%EC%A0%81%EC%9A%A9%EB%AA%A8%EC%8A%B5.png)
 
 이로써 깃허브 블로그 폰트 변경을 성공적으로 마쳤다. 생각보다 너무 간단하지 않은가? 이것은 사실 시작에 불과하다. 이보다 더 많은 커스터마이징할 것이 남아있는데, 이건 앞으로 차차 올리도록 하겠다.
+
+-------------------------
+
+- [깃허브 블로그에 리디바탕 폰트 적용하기]({{ site.url }}/blog/Change-the-GitHub-Blog-Font-RIDIBatang/){: .notice--info}
