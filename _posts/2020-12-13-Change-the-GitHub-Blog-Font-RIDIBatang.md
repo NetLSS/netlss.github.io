@@ -93,5 +93,5 @@ $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
 이로써 깃허브 블로그 폰트 변경을 성공적으로 마쳤다. 생각보다 너무 간단하지 않은가? 이것은 사실 시작에 불과하다. 이보다 더 많은 커스터마이징할 것이 남아있는데, 이건 앞으로 차차 올리도록 하겠다.
 
 -------------------------
-
-[깃허브 블로그에 리디바탕 폰트 적용하기]({{ site.url }}/blog/Change-the-GitHub-Blog-Font-RIDIBatang/){: .notice--info}
+추천글
+- [깃허브(GitHub) 블로그 시작하기 Jekyll로 쉽게 만들기 가능]({{ site.url }}/blog/How-to-Create-a-GitHub-Blog/){: .notice--info}
