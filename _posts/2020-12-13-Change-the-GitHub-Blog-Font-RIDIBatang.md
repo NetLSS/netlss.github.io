@@ -94,4 +94,4 @@ $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
 
 -------------------------
 
-- [깃허브 블로그에 리디바탕 폰트 적용하기]({{ site.url }}/blog/Change-the-GitHub-Blog-Font-RIDIBatang/){: .notice--info}
+[깃허브 블로그에 리디바탕 폰트 적용하기]({{ site.url }}/blog/Change-the-GitHub-Blog-Font-RIDIBatang/){: .notice--info}
