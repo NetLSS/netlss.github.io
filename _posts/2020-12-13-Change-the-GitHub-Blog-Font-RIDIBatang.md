@@ -12,7 +12,7 @@ last_modified_at: 2020-12-13T23:13:02+09:00
 ## 1. 깃허브 블로그 폰트 바꾸는 방법 소개
 깃허브에서 jekyll을 사용해서 블로그를 개설하면 커스터마이징 할 수 있는 것들이 아주 많다. 자기멋대로 수정이 가능하다는 말이다.
 
-필자의 블로그는 jekyll 테마중에서 가장 인기가 많은것 중에 하나인 minimal mistakes이며 대부분 이 테마로 시작하는 분들이 많을 것이다.
+필자의 블로그는 jekyll 테마중에서 가장 인기가 많은것 중에 하나인 `minimal mistakes`이며 대부분 이 테마로 시작하는 분들이 많을 것이다.
 
 ![깃허브 블로그에 리디바탕 폰트 적용한 모습](/assets/images/002-change-github-blog-font/Ridibatang_in_github_blog.png){: .center}
 
@@ -58,12 +58,12 @@ last_modified_at: 2020-12-13T23:13:02+09:00
 > [리디바탕체 웹폰트 다운로드](https://noonnu.cc/font_page/324){: target="_blank"}
 
 ### 2.2. 폰트파일을 assets 폴더로 복사
-폰트파일(.otf, .woff)을 구했다면 /assets/fonts 경로로 복사해준다. (사실 아무대나 해도 되는데 assets로 통일하는 것이 좋다.)
+폰트파일(.otf, .woff)을 구했다면 `/assets/fonts` 경로로 복사해준다. (사실 아무대나 해도 되는데 assets로 통일하는 것이 좋다.)
 
 ![font-to-assets](/assets/images/clipboard/font-to-assets.png){: .center}
 
 ### 2.3. css 파일 수정 (assets/css)
-다음으로는 jekyll에서 우리가 적용해줄 css 코드를 설정해주어야 한다. 경로는 assets/css/main.scss 내부에 아래 코드를 추가하면된다.
+다음으로는 jekyll에서 우리가 적용해줄 css 코드를 설정해주어야 한다. 경로는 `assets/css/main.scss` 내부에 아래 코드를 추가하면된다.
 ```css
 @font-face {
     font-family: 'RIDIBatang';
@@ -75,7 +75,7 @@ last_modified_at: 2020-12-13T23:13:02+09:00
 ![css-file-edit-main-scss](/assets/images/clipboard/css-file-edit-main-scss.png)  
 
 ### 2.4. variables.scss 에서 폰트 적용
-다음은 _sass폴더의 minimal-mistakes/_variables.scss 파일을 수정해야한다. 15라인 쯤에 system typefaces 주석 아래 부분 sans-serif란을 수정하면되는데, 자기 자신의 폰트명을 입력해준다.
+다음은 _sass폴더의 `minimal-mistakes/_variables.scss` 파일을 수정해야한다. 15라인 쯤에 system typefaces 주석 아래 부분 sans-serif란을 수정하면되는데, 자기 자신의 폰트명을 입력해준다.
 ```css
 /* system typefaces */
 $serif: Georgia, Times, serif !default;
