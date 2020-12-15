@@ -8,6 +8,10 @@ tags:
     - Blog
 last_modified_at: 2020-12-13T11:12:02+09:00
 
+image:
+  feature: /assets/images/001-Create-a-GitHub-Blog/tistory_kakao.png
+  thumb: /assets/images/clipboard/thumnai-image.png
+
 gallery:
   - url: /assets/images/001-Create-a-GitHub-Blog/tistory_kakao.png
     image_path: /assets/images/001-Create-a-GitHub-Blog/tistory_kakao.png

@@ -7,6 +7,10 @@ categories:
 tags:
     - Blog
 last_modified_at: 2020-12-13T23:13:02+09:00
+
+image:
+  feature: /assets/images/002-change-github-blog-font/Ridibatang_in_github_blog.png
+  thumb: /assets/images/clipboard/thumnail-image_1608029371387.png
 ---
 
 ## 1. 깃허브 블로그 폰트 바꾸는 방법 소개
