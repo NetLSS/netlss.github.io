@@ -30,8 +30,8 @@ image:
     <table style="border-collapse: collapse; width: 100%; margin:auto; text-align: center;" border="0">
         <tbody>
             <tr>
-                <td style="width: 50%;"><img src="/assets/images/clipboard/%EB%A6%AC%EB%94%94%EB%B0%94%ED%83%95%20%EC%86%8C%EA%B0%9C.png" alt="%EB%A6%AC%EB%94%94%EB%B0%94%ED%83%95%20%EC%86%8C%EA%B0%9C"></td>
-                <td style="width: 50%;"><img src="/assets/images/clipboard/%EA%B8%B4%EB%AC%B8%EC%9E%A5%EB%8F%84%20%EB%8D%94%20%EC%9E%98%EC%9D%BD%ED%9E%88%EB%8A%94%20%EB%A6%AC%EB%94%94%EB%B0%94%ED%83%95%EC%B2%B4.png" alt="%EB%A6%AC%EB%94%94%EB%B0%94%ED%83%95%20%EC%86%8C%EA%B0%9C"></td>
+                <td style="width: 50%;"><img src="/assets/images/clipboard/%EB%A6%AC%EB%94%94%EB%B0%94%ED%83%95%20%EC%86%8C%EA%B0%9C.png" alt="리디바탕 소개글"></td>
+                <td style="width: 50%;"><img src="/assets/images/clipboard/%EA%B8%B4%EB%AC%B8%EC%9E%A5%EB%8F%84%20%EB%8D%94%20%EC%9E%98%EC%9D%BD%ED%9E%88%EB%8A%94%20%EB%A6%AC%EB%94%94%EB%B0%94%ED%83%95%EC%B2%B4.png" alt="빼어난 리디바탕 소개"></td>
             </tr>
         </tbody>
     </table>
@@ -50,8 +50,8 @@ image:
     <table style="border-collapse: collapse; width: 100%; margin:auto; text-align: center;" border="0">
         <tbody>
             <tr>
-                <td style="width: 50%;"><img src="/assets/images/clipboard/%EB%A6%AC%EB%94%94%EB%B0%94%ED%83%95%EC%B2%B4-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C.png" alt="%EB%A6%AC%EB%94%94%EB%B0%94%ED%83%95%EC%B2%B4-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C"></td>
-                <td style="width: 50%;"><img src="/assets/images/clipboard/%EB%A6%AC%EB%94%94%EB%B0%94%ED%83%95%EC%B2%B4-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C2.png" alt="%EB%A6%AC%EB%94%94%EB%B0%94%ED%83%95%EC%B2%B4-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C2"></td>
+                <td style="width: 50%;"><img src="/assets/images/clipboard/%EB%A6%AC%EB%94%94%EB%B0%94%ED%83%95%EC%B2%B4-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C.png" alt="리디바탕체 다운로드"></td>
+                <td style="width: 50%;"><img src="/assets/images/clipboard/%EB%A6%AC%EB%94%94%EB%B0%94%ED%83%95%EC%B2%B4-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C2.png" alt="리디바탕 다운로드2"></td>
             </tr>
         </tbody>
     </table>
@@ -92,10 +92,12 @@ $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
 ### 2.5. commit & push 후 확인
 이후 커밋 & 푸시 후 1~2분 정도 뒤에 확인해보면 정상적으로 폰트가 적용된 것을 확인할 수 있을 것이다.
 
-![%EA%B9%83%ED%97%88%EB%B8%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%8F%B0%ED%8A%B8%EB%B3%80%EA%B2%BD-%EC%A0%81%EC%9A%A9%EB%AA%A8%EC%8A%B5](/assets/images/clipboard/%EA%B9%83%ED%97%88%EB%B8%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%8F%B0%ED%8A%B8%EB%B3%80%EA%B2%BD-%EC%A0%81%EC%9A%A9%EB%AA%A8%EC%8A%B5.png)
+![적용된 모습 예시](/assets/images/clipboard/%EA%B9%83%ED%97%88%EB%B8%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%8F%B0%ED%8A%B8%EB%B3%80%EA%B2%BD-%EC%A0%81%EC%9A%A9%EB%AA%A8%EC%8A%B5.png)
 
 이로써 깃허브 블로그 폰트 변경을 성공적으로 마쳤다. 생각보다 너무 간단하지 않은가? 이것은 사실 시작에 불과하다. 이보다 더 많은 커스터마이징할 것이 남아있는데, 이건 앞으로 차차 올리도록 하겠다.
 
 -------------------------
-추천글
-- [깃허브(GitHub) 블로그 시작하기 Jekyll로 쉽게 만들기 가능]({{ site.url }}/blog/How-to-Create-a-GitHub-Blog/){: .notice--info}
+**Recommend:**  
+- [깃허브(GitHub) 블로그 시작하기 Jekyll로 쉽게 만들기 가능]({{ site.url }}/blog/How-to-Create-a-GitHub-Blog/)    
+- [minimal mistakes 최적화 : 필요없는 파일 삭제]({{ site.url }}/blog/minimal-mistakes-Remove-the-Unnecessary/)
+{: .notice--info}

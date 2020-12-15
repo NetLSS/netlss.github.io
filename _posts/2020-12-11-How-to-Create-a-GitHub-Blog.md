@@ -196,5 +196,7 @@ Settings에 GitHub Pages란에 소스를 root로 설정하고 Save 한다. 만�
 하지만 어렵거나, 재미가 느껴지지 않는 분들이라면 깃허브 블로그를 정말 운영할 수 있을지 하고싶은지를 다시 생각해서 이후 방향을 잡기를 바란다.
 
 -------------------------
-추천글
-- [깃허브 블로그에 리디바탕 폰트 적용하기]({{ site.url }}/blog/Change-the-GitHub-Blog-Font-RIDIBatang/){: .notice--info}
+**Recommend:**  
+- [깃허브 블로그에 리디바탕 폰트 적용하기]({{ site.url }}/blog/Change-the-GitHub-Blog-Font-RIDIBatang/)  
+- [minimal mistakes 최적화 : 필요없는 파일 삭제]({{ site.url }}/blog/minimal-mistakes-Remove-the-Unnecessary/)
+{: .notice--info}
