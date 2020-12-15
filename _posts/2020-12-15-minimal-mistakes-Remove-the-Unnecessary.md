@@ -43,7 +43,7 @@ fork로 인해 딸려오는 필요없는 파일들은 아래와 같다.
 
 위 목록을 참고해서 저장소를 정리하면 되겠다. 보면 `.github`파일도 제거해도 된다고 되어있는데, 사실 이 부분은 git에 대한 여러분의 추가 설정이 들어가 있을 수도 있으므로 삭선처리했다.
 
-![remove-unnecessary-list](../assets/images/clipboard/remove-unnecessary-list.png)
+![remove-unnecessary-list](/assets/images/clipboard/remove-unnecessary-list.png)
 
 파일명만 있으면 헷갈려하는 분들이 있어서 해당 파일을 vs code에서 선택해서 첨부하니 이를 참고하기바란다.
 
