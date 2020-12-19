@@ -197,6 +197,7 @@ Settings에 GitHub Pages란에 소스를 root로 설정하고 Save 한다. 만�
 
 -------------------------
 **Recommend:**  
-- [깃허브 블로그에 리디바탕 폰트 적용하기]({{ site.url }}/blog/Change-the-GitHub-Blog-Font-RIDIBatang/)  
-- [minimal mistakes 최적화 : 필요없는 파일 삭제]({{ site.url }}/blog/minimal-mistakes-Remove-the-Unnecessary/)
+- [깃허브 블로그에 리디바탕 폰트 적용하기]({{ site.url }}/blog/Change-the-GitHub-Blog-Font-RIDIBatang/){: target="_blank"}  
+- [minimal mistakes 최적화 : 필요없는 파일 삭제]({{ site.url }}/blog/minimal-mistakes-Remove-the-Unnecessary/){: target="_blank"}
+- [알고리즘 코딩테스트 자주 쓰는 파이썬 코드 : 입출력]({{ site.url }}/python/algorithm/python-input-output-tips/){: target="_blank"}
 {: .notice--info}

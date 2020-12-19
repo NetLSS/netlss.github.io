@@ -49,6 +49,7 @@ fork로 인해 딸려오는 필요없는 파일들은 아래와 같다.
 
 -------------------------
 **Recommend:**  
-- [깃허브(GitHub) 블로그 시작하기 Jekyll로 쉽게 만들기 가능]({{ site.url }}/blog/How-to-Create-a-GitHub-Blog/)
-- [깃허브 블로그에 리디바탕 폰트 적용하기]({{ site.url }}/blog/Change-the-GitHub-Blog-Font-RIDIBatang/)
+- [깃허브(GitHub) 블로그 시작하기 Jekyll로 쉽게 만들기 가능]({{ site.url }}/blog/How-to-Create-a-GitHub-Blog/){: target="_blank"}
+- [깃허브 블로그에 리디바탕 폰트 적용하기]({{ site.url }}/blog/Change-the-GitHub-Blog-Font-RIDIBatang/){: target="_blank"}
+- [알고리즘 코딩테스트 자주 쓰는 파이썬 코드 : 입출력]({{ site.url }}/python/algorithm/python-input-output-tips/){: target="_blank"}
 {: .notice--info}

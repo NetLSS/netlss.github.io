@@ -114,5 +114,6 @@ print(f"비밀번호는 {a}")
 > cf. 이것이 취업을 위한 코딩 테스트다 with 파이썬
 
 **Recommend:**  
-- [백준 5585번: 거스름돈 파이썬 문제풀이 (BOJ 5585)]({{ site.url }}/algorithm/python/BOJ-5585/)
-- [백준 1003번: 피보나치함수 파이썬 문제풀이 (BOJ 1003)]({{ site.url }}/algorithm/python/BOJ-1003/)
+- [백준 5585번: 거스름돈 파이썬 문제풀이 (BOJ 5585)]({{ site.url }}/algorithm/python/BOJ-5585/){: target="_blank"}
+- [백준 1003번: 피보나치함수 파이썬 문제풀이 (BOJ 1003)]({{ site.url }}/algorithm/python/BOJ-1003/){: target="_blank"}
+- [깃허브(GitHub) 블로그 시작하기 Jekyll로 쉽게 만드는 방법]({{ site.url }}/blog/How-to-Create-a-GitHub-Blog/){: target="_blank"}    
