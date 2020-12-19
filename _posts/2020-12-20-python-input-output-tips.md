@@ -3,8 +3,8 @@ title: "알고리즘 코딩테스트 자주 쓰는 파이썬 코드 : 입출력"
 excerpt: "코딩테스트, 알고리즘 문제에서 입출력으로 제공되는 것을 처리할 때 자주 쓰는 파이썬(python) 코드"
 
 categories:
-    - Algorithm
     - python
+    - Algorithm
 tags:
     - Algorithm
     - python
