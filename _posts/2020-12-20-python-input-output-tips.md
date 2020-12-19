@@ -9,7 +9,7 @@ tags:
     - Algorithm
     - python
     - tips
-last_modified_at: 2020-12-19T17:53:00+09:00
+last_modified_at: 2020-12-19T19:29:32+09:00
 
 ---
 
