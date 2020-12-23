@@ -20,13 +20,13 @@ title                    : "oilmlio-world"
 title_separator          : "-"
 subtitle                 : "oilmlio's free world"
 name                     : "생뚱맞은 오일밀리오"
-description              : "님들이 궁굼해하는 정보를 간단하고 쉽게 전달하고 싶은 개발자의 블로그"
+description              : "님들이 궁굼해하는 정보를 간단하고 쉽게 전달하는 개발자의 블로그"
 url                      : "https://oilmlio.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : #"/test"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+logo                     : /assets/images/default/logo.jpg # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : "oilmlio world" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
