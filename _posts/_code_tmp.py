@@ -1,15 +1,20 @@
-n, k = map(int, input().split())
-result = 0
+n = int(input())
+x, y = 1, 1
+plans = input().split()
 
-while True:
-    # N이 K로 나누어 떨어지는 수가 될 때까지 1씩 빼기
-    target = (n // k) * k # K로 나누어 떨어지는 수
-    result += (n - target) # target 까지 가기위해 1빼기 진행
-    n = target
-    if n < k:
-        break # 못 나누는 경우 break
-    n //= k 
-    result += 1 # 2번 연산 (나누기) 수행 한번 했으니 +1
+# 계획에 따른 이동 방향
+dx = [0, 0, -1, 1]
+dy = [-1, 1, 0, 0]
+move_types = ['L', 'R', 'U', 'D']
 
-result += (n - 1) # 1이 될 때까지 빼야하므로.
-print(result)
+for plan in plans:
+    for i in range(len(move_types)):
+        if plan == move_types[i]:
+            nx = x + dx[i]
+            ny = y + dy[i]
+    # 공간을 벗어 난다면 continue
+    if nx < 1 or ny < 1 or nx > n or ny > n:
+        continue
+    x, y = nx, ny
+
+print(x, y)

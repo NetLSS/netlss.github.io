@@ -4,11 +4,11 @@ excerpt: "그리디 알고리즘의 기초가 될 수 있는 문제 1이 될 때
 
 categories:
     - Algorithm
-    - python
+    - Python
 tags:
     - Algorithm
-    - python
-    - 그리디
+    - Python
+    - Greedy
 last_modified_at: 2020-12-21T20:44:00+09:00
 
 ---
