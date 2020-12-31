@@ -1,38 +1,52 @@
-from collections import deque
+n, m = map(int, input().split())
+
+graph = []
+for i in range(n):
+    graph.append(list(map(int, input())))  # cf. str은 iterable
 
 
-def bfs(graph, start, visited):
-    queue = deque([start])
-
-    # 현재 노드 방문 처리
-    visited[start] = True
-
-    # 큐가 빌 때까지 반복
-    while queue:
-        # 큐에서 하나 뽑아 출력
-        v = queue.popleft()
-        print(v, end=' ')
-
-        # 해당 원소와 인접한, 방문x인 원소 삽입
-        for i in graph[v]:
-            if not visited[i]:
-                queue.append(i)
-                visited[i] = True
+def dfs(x, y):
+    # 범위 검사
+    if x <= -1 or x >= n or y <= -1 or y >= m:
+        return False
+    # 현재 노드를 아직 방문하지 않았다면
+    if graph[x][y] == 0:
+        graph[x][y] = 1
+        dfs(x-1, y)
+        dfs(x, y-1)
+        dfs(x+1, y)
+        dfs(x, y+1)
+        return True
+    return False
 
 
-graph = [
-    [],
-    [2, 3, 8],
-    [1, 7],
-    [1, 4, 5],
-    [3, 5],
-    [3, 4],
-    [7],
-    [2, 6, 8],
-    [1, 7]
-]
+result = 0
+for i in range(n):
+    for j in range(m):
+        if dfs(i, j) == True:
+            result += 1
 
-# 각 노드가 방문된 정보 리스트
-visited = [False] * 9
+print(result)
 
-bfs(graph, 1, visited)
+"""
+map은 iterable의 각 요소가 함수를 적용하는 함수입니다. 기본적으로 str를 iterate하면 문자 하나하나로 쪼개지게 되고, 각 문자별로 int함수 결과를 취해주게 되죠.
+"""
+
+"""
+15 14
+00000111100000
+11111101111110
+11011101101110
+11011101100000
+11011111111111
+11011111111100
+11000000011111
+01111111111111
+00000000011111
+01111111111000
+00011111111000
+00000001111000
+11111111110011
+11100011111111
+11100011111111
+"""
