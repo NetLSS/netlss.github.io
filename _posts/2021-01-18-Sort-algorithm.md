@@ -8,7 +8,7 @@ categories:
 tags:
     - Algorithm
     - Python
-    - BFS
+    - Sort
 last_modified_at: 2021-01-18T21:24:00+09:00
 
 ---
