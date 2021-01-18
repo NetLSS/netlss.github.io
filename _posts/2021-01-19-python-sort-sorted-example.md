@@ -1,6 +1,6 @@
 ---
-title: " "
-excerpt: " "
+title: "파이썬 정렬 라이브러리 sort, sorted"
+excerpt: "파이썬 정렬 라이브러리 sort, sorted 예제 example"
 
 categories:
     - Python
@@ -69,6 +69,6 @@ print(result)
 [('바나나', 2), ('당근', 3), ('사과', 5)]
 ```
   
-  
+
 **Recommend:**  
 - [알고리즘 코딩테스트 자주 쓰는 파이썬 코드 : 입출력]({{ site.url }}/python/algorithm/python-input-output-tips/){: target="_blank"}
