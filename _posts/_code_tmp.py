@@ -1,9 +1,11 @@
-array = [('바나나', 2), ('사과',5), ('당근', 3)]
+array = [7, 5, 9, 0, 3, 1, 6, 2, 4, 8]
 
-def setting(data):
-    return data[1]
+for i in range(1, len(array)):  # 1번 인덱스 부터
+    for j in range(i, 0, -1):
+        if array[j] < array[j - 1]:
+            array[j], array[j - 1] = array[j - 1], array[j]
+        else:
+            break
 
-result = sorted(array, key=setting)
-print(result)
+print(array)
 
-#[('바나나', 2), ('당근', 3), ('사과', 5)]
